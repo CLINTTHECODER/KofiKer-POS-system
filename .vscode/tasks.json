@@ -1,0 +1,31 @@
+
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Kofi Ker POS",
+            "type": "process",
+            "command": "C:\\xampp\\php\\php.exe",
+            "args": [
+                "-S",
+                "localhost:8000",
+                "-t",
+                "${workspaceFolder}"
+            ],
+            "options": {
+                "env": {
+                    "SUPABASE_DB_HOST": "aws-0-ap-northeast-1.pooler.supabase.com",
+                    "SUPABASE_DB_PORT": "5432",
+                    "SUPABASE_DB_NAME": "postgres",
+                    "SUPABASE_DB_USER": "postgres.tdqesrchmcrodfztprze",
+                    "SUPABASE_DB_PASSWORD": "LTt,GDx628yBC?%"
+                }
+            },
+            "isBackground": true,
+            "problemMatcher": [],
+            "runOptions": {
+                "instanceLimit": 1
+            }
+        }
+    ]
+}

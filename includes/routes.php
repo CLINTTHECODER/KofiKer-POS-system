@@ -8,7 +8,7 @@ return [
     ],
     '/dashboard' => [
         'label' => 'Dashboard',
-        'file' => 'pages/dashboard.php',
+        'file' => 'dashboard.php',
     ],
     '/inventory' => [
         'label' => 'Inventory',
@@ -29,5 +29,9 @@ return [
     '/order-details' => [
     'label' => 'Order Details',
     'file' => 'order-details.php'
+    ],
+    '/sales-reports' => [
+    'label' => 'Sales Reports',
+    'file' => 'sales-reports.php'
     ],
 ];

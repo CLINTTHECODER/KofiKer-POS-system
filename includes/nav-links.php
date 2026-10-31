@@ -8,4 +8,5 @@ return [
     ['label' => 'Products',  'path' => '/products'],
     ['label' => 'Recipes',   'path' => '/recipes'],
     ['label' => 'Order History', 'path' => '/orders'],
+    ['label' => 'Sales Reports', 'path' => '/sales-reports'],
 ];

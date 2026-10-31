@@ -7,12 +7,11 @@
             "type": "process",
             "command": "C:\\xampp\\php\\php.exe",
             "args": [
-                "-S",
-                "localhost:8000",
-                "-t",
-                "${workspaceFolder}"
-            ],
-            "options": {
+    "-S",
+    "localhost:8000",
+    "router.php"
+],
+            "options": { "cwd": "${workspaceFolder}",
                 "env": {
                     "SUPABASE_DB_HOST": "aws-0-ap-northeast-1.pooler.supabase.com",
                     "SUPABASE_DB_PORT": "5432",

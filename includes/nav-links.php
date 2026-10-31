@@ -7,4 +7,5 @@ return [
     ['label' => 'Inventory', 'path' => '/inventory'],
     ['label' => 'Products',  'path' => '/products'],
     ['label' => 'Recipes',   'path' => '/recipes'],
+    ['label' => 'Order History', 'path' => '/orders'],
 ];

@@ -22,4 +22,12 @@ return [
         'label' => 'Recipes',
         'file' => 'manage-recipes.php',
     ],
+    '/orders' => [
+    'label' => 'Order History',
+    'file' => 'order-history.php'
+    ],
+    '/order-details' => [
+    'label' => 'Order Details',
+    'file' => 'order-details.php'
+    ],
 ];
